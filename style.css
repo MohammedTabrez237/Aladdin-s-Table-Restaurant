@@ -41,29 +41,23 @@ button:hover {
   font-family: "Cursive", "Lucida Handwriting", cursive;
   font-size: 2.8rem;
   font-weight: 700;
-  color: #b45f04; /* rich brown-orange color */
-  text-shadow: 2px 2px 5px rgba(180, 95, 4, 0.7), 0 0 10px #d2a679,
-    0 0 15px #d2a679;
+  /* color: #b45f04; rich brown-orange color */
+  /* text-shadow: 2px 2px 5px rgba(180, 95, 4, 0.7), 0 0 10px #d2a679, */
+    /* 0 0 15px #d2a679; */
+  color: #5f2f00; /* lighter orange on hover */
+  text-shadow: 0 0 8px #ff9933, 0 0 15px #ffb84d, 0 0 20px #ffb84d;
   cursor: pointer;
   transition: color 0.3s ease, text-shadow 0.3s ease;
   user-select: none;
 }
 #restaurant-name:hover {
-  color: #ff9933; /* lighter orange on hover */
-  text-shadow: 0 0 8px #ff9933, 0 0 15px #ffb84d, 0 0 20px #ffb84d;
-}
+    color: #ff9933; /* lighter orange on hover */
+    text-shadow:
+      0 0 8px #010100,
+      0 0 15px #50340a,
+      0 0 20px #ffb84d;
+  }
 
-@keyframes glow {
-  0%,
-  100% {
-    text-shadow: 2px 2px 5px rgba(180, 95, 4, 0.7), 0 0 10px #d2a679,
-      0 0 15px #d2a679;
-  }
-  50% {
-    text-shadow: 2px 2px 8px rgba(255, 153, 51, 0.9), 0 0 20px #ffa64d,
-      0 0 25px #ffb84d;
-  }
-}
 
 .container {
   max-width: 1200px;
