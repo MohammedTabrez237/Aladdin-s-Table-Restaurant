@@ -237,6 +237,11 @@ footer {
   color: #cf1212;
 }
 
+.foot{
+  display: flex;
+  justify-content:center ;
+}
+
 @media (max-width: 786px) {
   .hero {
     flex-direction: column;
