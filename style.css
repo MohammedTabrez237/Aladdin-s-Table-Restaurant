@@ -189,6 +189,11 @@ video {
   grid-area: I7;
 }
 
+.foot{
+  display: flex;
+  justify-content: center;
+}
+
 /* Footer Section */
 
 footer {
@@ -239,7 +244,8 @@ footer {
 
 .foot{
   display: flex;
-  justify-content:center ;
+  align-items: center;
+  
 }
 
 @media (max-width: 786px) {

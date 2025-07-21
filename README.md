@@ -1,6 +1,7 @@
-# 🍽️ Arabian Delight - Food Project 🍽️
+# Arabian Delight - Food Project
+# 🍽 Aladdin’s Table 🍽
 
-Welcome to **Arabian Delight**, your ultimate destination for authentic Arabian cuisine and flavors! 🌟
+Welcome to **Aladdin’s Table**, your ultimate destination for authentic Arabian cuisine and flavors! 🌟
 
 This project is a beautifully crafted web experience showcasing the rich and vibrant world of Arabian food culture. From the aromatic spices of the Sahara to the savory delights of the Casbah, this site brings the essence of Arabian dining right to your screen. 🌍✨
 
