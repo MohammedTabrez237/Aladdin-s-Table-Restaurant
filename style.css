@@ -6,7 +6,7 @@
   font-family: "Baloo Bhai 2", sans-serif;
   box-sizing: border-box;
 }
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -36,6 +36,34 @@ button:hover {
   align-items: center;
 }
 
+/* ................... */
+#restaurant-name {
+  font-family: "Cursive", "Lucida Handwriting", cursive;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #b45f04; /* rich brown-orange color */
+  text-shadow: 2px 2px 5px rgba(180, 95, 4, 0.7), 0 0 10px #d2a679,
+    0 0 15px #d2a679;
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  user-select: none;
+}
+#restaurant-name:hover {
+  color: #ff9933; /* lighter orange on hover */
+  text-shadow: 0 0 8px #ff9933, 0 0 15px #ffb84d, 0 0 20px #ffb84d;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: 2px 2px 5px rgba(180, 95, 4, 0.7), 0 0 10px #d2a679,
+      0 0 15px #d2a679;
+  }
+  50% {
+    text-shadow: 2px 2px 8px rgba(255, 153, 51, 0.9), 0 0 20px #ffa64d,
+      0 0 25px #ffb84d;
+  }
+}
 
 .container {
   max-width: 1200px;
@@ -109,22 +137,21 @@ video {
   margin: 20px 0;
 }
 
-    /* <!-- Explore  --> */
+/* <!-- Explore  --> */
 
-.menu{
-    display: flex;
-    flex-direction:column ;
-    gap: 30px;
-    margin: 50px 0;
-    align-items: center;
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 50px 0;
+  align-items: center;
 }
 
-.menu .tag{
-      padding: 8px 30px;
-    align-self: center;
-    font-size: 18px;
+.menu .tag {
+  padding: 8px 30px;
+  align-self: center;
+  font-size: 18px;
 }
-
 
 /* grid  */
 .grid-image {
@@ -172,7 +199,6 @@ video {
 
 footer {
   background-color: #fff0db;
-  
 }
 .link_lists h3 {
   margin-bottom: 10px;
@@ -204,19 +230,18 @@ footer {
   font-size: 32px;
 }
 
-.ic1:hover{
-    cursor: pointer;
-    color: #317ce5;
+.ic1:hover {
+  cursor: pointer;
+  color: #317ce5;
 }
-.ic2:hover{
-    cursor: pointer;
+.ic2:hover {
+  cursor: pointer;
 }
-.ic3:hover,.ic4:hover{
-    cursor: pointer;
-    color: #cf1212;
+.ic3:hover,
+.ic4:hover {
+  cursor: pointer;
+  color: #cf1212;
 }
-
-
 
 @media (max-width: 786px) {
   .hero {
