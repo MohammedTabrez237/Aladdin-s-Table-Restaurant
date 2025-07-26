@@ -35,6 +35,6 @@ Feel free to reach out for collaborations, feedback, or just to share your love 
 
 ---
 
-Thank you for visiting **Arabian Delight**! May your culinary journey be as delightful as the food itself. 🌟🍴
+Thank you for visiting **Aladdin’s Table**! May your culinary journey be as delightful as the food itself. 🌟🍴
 
 #BonAppetit #ArabianDelight #FoodLovers
